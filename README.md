@@ -1,3 +1,6 @@
-# MagicImages
+# Magic Images
 
-A description of this package.
+# Overview
+Magic Image é uma biblioteca para facilitar o desenvolvimento de várias maneiras da imagem.
+
+# How to use?
