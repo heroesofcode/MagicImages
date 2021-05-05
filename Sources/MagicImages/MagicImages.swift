@@ -9,6 +9,7 @@ public class MagicImages {
         self.image = image
     }
     
+    @discardableResult
     public func start(url: String) -> Self {
         image.download(image: url)
         return self
