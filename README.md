@@ -1,7 +1,7 @@
 # Magic Images
 
 ## Overview
-Magic Image é uma biblioteca para facilitar o desenvolvimento de várias maneiras da imagem.
+Magic Image is a library to facilitate the development of the image in various ways.
 
 ## How to use?
 
