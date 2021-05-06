@@ -56,7 +56,7 @@ override func viewDidLoad() {
 ```
 
 #### Third Example
-You can use it to see an image with rounded edges. <b>Measure</b> is rounded edges
+You can use it to see an image with rounded edges. <b>Measure</b> is rounded edges, follow the example below
 
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/photos/rounded.png" width="400px" height="700px" />
 
@@ -85,7 +85,7 @@ override func viewDidLoad() {
 
 Third example
 
-You can use it to see an image with some sides of the rounded edges. <b>Measure</b> is rounded edges
+You can use it to see an image with some sides of the rounded edges. <b>Measure</b> is rounded edges, follow the example below
 
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/photos/sides.png" width="400px" height="700px" />
 
