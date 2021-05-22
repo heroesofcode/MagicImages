@@ -22,3 +22,6 @@ jobs:
       
     - name: Build and Tests
       run: xcodebuild clean build test -project MagicImages.xcodeproj -scheme "MagicImages-Package" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 8" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
+      
+    - name: Post coverage
+      run: bash <(curl -s https://codecov.io/bash)
