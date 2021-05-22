@@ -1,5 +1,7 @@
 # Magic Images
 
+[![CI](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml)
+
 ## Overview
 Magic Image is a library to facilitate the development of the image in various ways.
 
