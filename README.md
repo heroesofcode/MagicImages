@@ -1,6 +1,9 @@
 # Magic Images
 
 [![CI](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml)
+[![Swift Version](https://img.shields.io/badge/Swift-5.0.x-orange.svg)]()
+[![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager)
+[![License](https://img.shields.io/github/license/joaolfp/ViewState.svg)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
 
 ## Overview
 Magic Image is a library to facilitate the development of the image in various ways.
