@@ -126,7 +126,7 @@ import MagicImages
 ```
 
 ## Author
-Coded by João Lucas
+Coded by [@joaolfp](https://github.com/joaolfp)
 
 ## License
 
