@@ -33,6 +33,12 @@ final class MagicImagesTests: XCTestCase {
         XCTAssertEqual(image.layer.maskedCorners, [.layerMaxXMaxYCorner, .layerMinXMinYCorner])
     }
     
+    func testVerifyGetImageWithSuccess() {
+        let url = "www.image.com/image.jpg"
+        let image = UIImageView()
+        XCTAssertNotNil(image.download(image: url))
+    }
+    
     static var allTests = [
         ("testVerifyIsCircleWithSuccess", testVerifyIsCircleWithSuccess),
         ("testVerifyIsRoundedWithSuccess", testVerifyIsRoundedWithSuccess),
