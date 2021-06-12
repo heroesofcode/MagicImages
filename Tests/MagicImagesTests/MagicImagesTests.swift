@@ -42,6 +42,7 @@ final class MagicImagesTests: XCTestCase {
     static var allTests = [
         ("testVerifyIsCircleWithSuccess", testVerifyIsCircleWithSuccess),
         ("testVerifyIsRoundedWithSuccess", testVerifyIsRoundedWithSuccess),
-        ("testVerifyIsSidesWithSuccess", testVerifyIsSidesWithSuccess)
+        ("testVerifyIsSidesWithSuccess", testVerifyIsSidesWithSuccess),
+        ("testVerifyGetImageWithSuccess", testVerifyGetImageWithSuccess)
     ]
 }
