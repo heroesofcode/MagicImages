@@ -116,6 +116,9 @@ override func viewDidLoad() {
 
 ## Installation
 
+<details>
+  <summary><strong>Swift Package Manager</strong></summary>
+    
 ```swift
 dependencies: [
     .package(url: "https://github.com/heroesofcode/MagicImages.git", .upToNextMajor(from: "0.0.2"))
@@ -125,6 +128,7 @@ dependencies: [
 ```swift
 import MagicImages
 ```
+</details>
 
 ## Author
 Coded by [@joaolfp](https://github.com/joaolfp)
