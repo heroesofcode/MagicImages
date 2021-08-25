@@ -1,4 +1,4 @@
-# Magic Images
+# Magic Images :camera_flash:
 
 [![CI](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml)
 [![codecov](https://codecov.io/gh/heroesofcode/MagicImages/branch/main/graph/badge.svg?token=LVIQ3H0PTH)](https://codecov.io/gh/heroesofcode/MagicImages)
