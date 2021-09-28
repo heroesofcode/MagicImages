@@ -15,7 +15,7 @@ Magic Image is a library to facilitate the development of the image in various w
 #### First Example
 You can use it to view an image through a url, follow the example below
 
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/photos/start.png" width="400px" height="700px" />
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/start.png" width="400px" height="700px" />
 
 ```swift
 let photo: UIImageView = {
@@ -41,7 +41,7 @@ override func viewDidLoad() {
 #### Second Example
 You can use it to view a circular image. <b>Measure</b> is the width and height, follow the example below
 
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/photos/circle.png" width="400px" height="700px" />
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/circle.png" width="400px" height="700px" />
 
 ```swift
 let photo: UIImageView = {
@@ -65,7 +65,7 @@ override func viewDidLoad() {
 #### Third Example
 You can use it to see an image with rounded edges. <b>Measure</b> is rounded edges, follow the example below
 
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/photos/rounded.png" width="400px" height="700px" />
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/rounded.png" width="400px" height="700px" />
 
 ```swift
 let photo: UIImageView = {
@@ -91,7 +91,7 @@ override func viewDidLoad() {
 #### Last Example
 You can use it to see an image with some sides of the rounded edges. <b>Measure</b> is rounded edges, follow the example below
 
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/photos/sides.png" width="400px" height="700px" />
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/sides.png" width="400px" height="700px" />
 
 ```swift
 let photo: UIImageView = {
