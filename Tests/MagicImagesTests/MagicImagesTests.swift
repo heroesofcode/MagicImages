@@ -27,7 +27,7 @@ final class MagicImagesTests: XCTestCase {
     func testVerifyIsSidesWithSuccess() {
         let image = UIImageView()
         MagicImages(image: image).start(url: "https://www.image.com/photo.png")
-            .isSides(measure: 20, mask: [.layerMaxXMaxYCorner, .layerMinXMinYCorner])
+            .isSides([.topLeft, .bottomRight], measures: 20)
             
         XCTAssertEqual(image.layer.cornerRadius, 20)
         XCTAssertEqual(image.layer.maskedCorners, [.layerMaxXMaxYCorner, .layerMinXMinYCorner])
@@ -39,10 +39,18 @@ final class MagicImagesTests: XCTestCase {
         XCTAssertNotNil(image.download(image: url))
     }
     
+    func testVerifyRadiusInRoundCorners() {
+        let image = UIImageView()
+        image.roundCorners(corners: [.topLeft, .bottomLeft], radius: 10)
+        
+        XCTAssertEqual(image.layer.cornerRadius, 10)
+    }
+    
     static var allTests = [
         ("testVerifyIsCircleWithSuccess", testVerifyIsCircleWithSuccess),
         ("testVerifyIsRoundedWithSuccess", testVerifyIsRoundedWithSuccess),
         ("testVerifyIsSidesWithSuccess", testVerifyIsSidesWithSuccess),
-        ("testVerifyGetImageWithSuccess", testVerifyGetImageWithSuccess)
+        ("testVerifyGetImageWithSuccess", testVerifyGetImageWithSuccess),
+        ("testVerifyRadiusInRoundCorners", testVerifyRadiusInRoundCorners)
     ]
 }

@@ -1,9 +1,7 @@
-import Foundation
 import UIKit
 
 extension UIImageView {
-    public func download(image url: String) {
-        
+    func download(image url: String) {
         guard let imageUrl = URL(string: url) else { return }
         
         let task = URLSession.shared.dataTask(with: imageUrl) { (data, _, _) in

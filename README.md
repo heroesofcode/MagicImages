@@ -110,8 +110,7 @@ override func viewDidLoad() {
     photo.widthAnchor.constraint(equalToConstant: 300).isActive = true
     photo.heightAnchor.constraint(equalToConstant: 200).isActive = true
         
-    MagicImages(image: photo).start(url: "IMAGE URL")
-            .isSides(measure: 50, mask: [.layerMaxXMaxYCorner, .layerMinXMinYCorner])
+    MagicImages(image: photo).start(url: "IMAGE URL").isSides([.topLeft, .bottomRight], measures: 50)
 }
 ```
 
