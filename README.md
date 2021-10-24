@@ -110,10 +110,29 @@ override func viewDidLoad() {
     photo.widthAnchor.constraint(equalToConstant: 300).isActive = true
     photo.heightAnchor.constraint(equalToConstant: 200).isActive = true
         
-    MagicImages(image: photo).start(url: "IMAGE URL")
-            .isSides(measure: 50, mask: [.layerMaxXMaxYCorner, .layerMinXMinYCorner])
+    MagicImages(image: photo).start(url: "IMAGE URL").isSides([.topLeft, .bottomRight], measures: 50)
 }
 ```
+
+### Examples with Interface Builder
+
+#### 1 - Circle
+
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/Example-Circle.png" width="500px" height="200px" />
+
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/Example-Class-Circle.png" width="500px" height="200px" />
+
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/InterfaceBuilder-Circle.png" width="400px" height="700px" />
+
+#### 2 - Rounded Edges
+
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/Example-Rounded.png" width="500px" height="200px" />
+
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/Example-Class-Rounded.png" width="500px" height="200px" />
+
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/InterfaceBuilder-Rounded.png" width="400px" height="700px" />
+
+
 
 ## Installation
 

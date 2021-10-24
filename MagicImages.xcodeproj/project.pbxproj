@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		A6E6F32D27260A60003473C1 /* UIImageView+RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E6F32C27260A60003473C1 /* UIImageView+RoundCorners.swift */; };
+		A6E6F33727260AFB003473C1 /* MagicImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E6F33627260AFB003473C1 /* MagicImagesView.swift */; };
 		OBJ_26 /* MagicImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* MagicImages.swift */; };
 		OBJ_27 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* UIImageView+Download.swift */; };
 		OBJ_34 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
@@ -47,12 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6E6F32C27260A60003473C1 /* UIImageView+RoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+RoundCorners.swift"; sourceTree = "<group>"; };
+		A6E6F33627260AFB003473C1 /* MagicImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicImagesView.swift; sourceTree = "<group>"; };
 		"MagicImages::MagicImages::Product" /* MagicImages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MagicImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"MagicImages::MagicImagesTests::Product" /* MagicImagesTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = MagicImagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* UIImageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 		OBJ_13 /* MagicImagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicImagesTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		OBJ_18 /* photos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = photos; sourceTree = SOURCE_ROOT; };
 		OBJ_19 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_20 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -105,18 +108,16 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_11 /* Tests */,
 				OBJ_15 /* Products */,
-				OBJ_18 /* photos */,
 				OBJ_19 /* LICENSE */,
 				OBJ_20 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -132,6 +133,8 @@
 			children = (
 				OBJ_9 /* MagicImages.swift */,
 				OBJ_10 /* UIImageView+Download.swift */,
+				A6E6F32C27260A60003473C1 /* UIImageView+RoundCorners.swift */,
+				A6E6F33627260AFB003473C1 /* MagicImagesView.swift */,
 			);
 			name = MagicImages;
 			path = Sources/MagicImages;
@@ -204,7 +207,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -245,6 +248,8 @@
 			files = (
 				OBJ_26 /* MagicImages.swift in Sources */,
 				OBJ_27 /* UIImageView+Download.swift in Sources */,
+				A6E6F33727260AFB003473C1 /* MagicImagesView.swift in Sources */,
+				A6E6F32D27260A60003473C1 /* UIImageView+RoundCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
