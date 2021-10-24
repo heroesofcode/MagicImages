@@ -46,11 +46,32 @@ final class MagicImagesTests: XCTestCase {
         XCTAssertEqual(image.layer.cornerRadius, 10)
     }
     
+    func testVerifyIsCircleInterfaceBuilderIsTrue() {
+        let image = MagicImageCircle()
+        image.isCircle = true
+        
+        image.widthAnchor.constraint(equalToConstant: 100).isActive = true
+        image.heightAnchor.constraint(equalToConstant: 100).isActive = true
+        
+        image.layer.cornerRadius = 100 / 2
+        
+        XCTAssertEqual(image.layer.cornerRadius, 50)
+    }
+    
+    func testVerifyIsRoundedInterfaceBuilderWithSuccess() {
+        let image = MagicImageRounded()
+        image.isRounded = 50
+        
+        XCTAssertEqual(image.layer.cornerRadius, 50)
+    }
+    
     static var allTests = [
         ("testVerifyIsCircleWithSuccess", testVerifyIsCircleWithSuccess),
         ("testVerifyIsRoundedWithSuccess", testVerifyIsRoundedWithSuccess),
         ("testVerifyIsSidesWithSuccess", testVerifyIsSidesWithSuccess),
         ("testVerifyGetImageWithSuccess", testVerifyGetImageWithSuccess),
-        ("testVerifyRadiusInRoundCorners", testVerifyRadiusInRoundCorners)
+        ("testVerifyRadiusInRoundCorners", testVerifyRadiusInRoundCorners),
+        ("testVerifyIsCircleInterfaceBuilderIsTrue", testVerifyIsCircleInterfaceBuilderIsTrue),
+        ("testVerifyIsRoundedInterfaceBuilderWithSuccess", testVerifyIsRoundedInterfaceBuilderWithSuccess)
     ]
 }
