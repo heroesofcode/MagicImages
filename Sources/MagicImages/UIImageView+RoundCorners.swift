@@ -35,6 +35,8 @@ extension UIImageView {
             }
         }
         
-        layer.maskedCorners = cornerMark
+        if #available(iOS 11, *) {
+            layer.maskedCorners = cornerMark
+        }
     }
 }

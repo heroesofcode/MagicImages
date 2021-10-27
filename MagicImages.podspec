@@ -6,7 +6,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MagicImages'
-  s.version          = '0.1.3'
+  s.version          = '0.2.3'
   s.summary          = 'Magic Image is a library to facilitate the development of the image in various ways.'
   s.homepage         = 'https://github.com/heroesofcode/MagicImages'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.frameworks       = 'UIKit'
 
   s.swift_versions   = ['5.0', '5.1']
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.0'
 
   s.source           = { :git => 'https://github.com/heroesofcode/MagicImages.git', :tag => s.version.to_s }
   s.source_files     = 'Sources/MagicImages/**/*'
