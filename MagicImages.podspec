@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.frameworks       = 'UIKit'
 
   s.swift_versions   = ['5.0', '5.1']
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.source           = { :git => 'https://github.com/heroesofcode/MagicImages.git', :tag => s.version.to_s }
   s.source_files     = 'Sources/MagicImages/**/*'
