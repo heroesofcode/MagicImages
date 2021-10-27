@@ -12,30 +12,29 @@ extension UIImageView {
         var cornerMark: CACornerMask = []
                 
         let allCorners: [UIRectCorner] = [.topLeft, .topRight, .bottomLeft, .bottomRight, .allCorners]
-                
-        for corner in allCorners {
-            if corners.contains(corner) {
-                switch corner {
-                case .topLeft:
-                    cornerMark.insert(.layerMinXMinYCorner)
-                case .topRight:
-                    cornerMark.insert(.layerMaxXMinYCorner)
-                case .bottomLeft:
-                    cornerMark.insert(.layerMinXMaxYCorner)
-                case .bottomRight:
-                    cornerMark.insert(.layerMaxXMaxYCorner)
-                case .allCorners:
-                    cornerMark.insert(.layerMinXMinYCorner)
-                    cornerMark.insert(.layerMaxXMinYCorner)
-                    cornerMark.insert(.layerMinXMaxYCorner)
-                    cornerMark.insert(.layerMaxXMaxYCorner)
-                default:
-                    break
+        
+        if #available(iOS 11.0, *) {
+            for corner in allCorners {
+                if corners.contains(corner) {
+                    switch corner {
+                    case .topLeft:
+                        cornerMark.insert(.layerMinXMinYCorner)
+                    case .topRight:
+                        cornerMark.insert(.layerMaxXMinYCorner)
+                    case .bottomLeft:
+                        cornerMark.insert(.layerMinXMaxYCorner)
+                    case .bottomRight:
+                        cornerMark.insert(.layerMaxXMaxYCorner)
+                    case .allCorners:
+                        cornerMark.insert(.layerMinXMinYCorner)
+                        cornerMark.insert(.layerMaxXMinYCorner)
+                        cornerMark.insert(.layerMinXMaxYCorner)
+                        cornerMark.insert(.layerMaxXMaxYCorner)
+                    default:
+                        break
+                    }
                 }
             }
-        }
-        
-        if #available(iOS 11, *) {
             layer.maskedCorners = cornerMark
         }
     }
