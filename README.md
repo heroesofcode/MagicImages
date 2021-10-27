@@ -122,7 +122,7 @@ override func viewDidLoad() {
 
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/Example-Circle.png" width="500px" height="200px" />
 
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/InterfaceBuilder-Circle.png" width="400px" height="700px" />
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/InterfaceBuilder-Circle.png" width="400px" height="800px" />
 
 #### 2 - Rounded Edges
 
@@ -130,7 +130,7 @@ override func viewDidLoad() {
 
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/Example-Rounded.png" width="500px" height="200px" />
 
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/InterfaceBuilder-Rounded.png" width="400px" height="700px" />
+<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/InterfaceBuilder-Rounded.png" width="400px" height="800px" />
 
 
 
