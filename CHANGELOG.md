@@ -3,6 +3,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 0.3.3
+**2021-10-27**
+
+- Add support to Carthage and CocoaPods
+
 ## Version 0.2.3
 **2021-10-27**
 

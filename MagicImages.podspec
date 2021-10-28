@@ -6,7 +6,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MagicImages'
-  s.version          = '0.2.3'
+  s.version          = '0.3.3'
   s.summary          = 'Magic Image is a library to facilitate the development of the image in various ways.'
   s.homepage         = 'https://github.com/heroesofcode/MagicImages'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

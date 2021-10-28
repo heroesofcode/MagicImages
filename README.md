@@ -4,6 +4,7 @@
 [![codecov](https://codecov.io/gh/heroesofcode/MagicImages/branch/main/graph/badge.svg?token=LVIQ3H0PTH)](https://codecov.io/gh/heroesofcode/MagicImages)
 [![Tag](https://img.shields.io/github/v/tag/heroesofcode/MagicImages?logo=github)](https://github.com/heroesofcode/MagicImages/releases)
 [![Swift Version](https://img.shields.io/badge/Swift-5.0.x-orange.svg)]()
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager)
 [![License](https://img.shields.io/github/license/joaolfp/ViewState.svg)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
 
@@ -147,6 +148,32 @@ dependencies: [
 
 ```swift
 import MagicImages
+```
+</details>
+
+<details>
+  <summary><strong>CocoaPods</strong></summary>
+
+```swift
+import MagicImages
+```
+
+```ruby
+target '<Your Target Name>' do
+  pod 'MagicImages'
+end
+```
+
+```bash
+$ pod install
+```
+</details>
+
+<details>
+  <summary><strong>Carthage</strong></summary>
+    
+```bash
+github "heroesofcode/MagicImages"
 ```
 </details>
 
