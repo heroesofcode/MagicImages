@@ -4,13 +4,16 @@
 [![codecov](https://codecov.io/gh/heroesofcode/MagicImages/branch/main/graph/badge.svg?token=LVIQ3H0PTH)](https://codecov.io/gh/heroesofcode/MagicImages)
 [![Swift Version](https://img.shields.io/badge/Swift-5.0.x-orange.svg)]()
 [![Tag](https://img.shields.io/github/v/tag/heroesofcode/MagicImages?logo=github)](https://github.com/heroesofcode/MagicImages/releases)
-![Cocoapods](https://img.shields.io/cocoapods/v/MagicImages)
+![Cocoapods](https://img.shields.io/cocoapods/v/MagicImages.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager)
 [![License](https://img.shields.io/github/license/joaolfp/ViewState.svg)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
 
 ## Overview
 Magic Image is a library to facilitate the development of the image in various ways.
+
+## Support
+<img src="https://img.shields.io/cocoapods/p/DataLife.svg?style=flat">
 
 ## How to use?
 
