@@ -13,7 +13,7 @@ extension UIImageView {
                 
         let allCorners: [UIRectCorner] = [.topLeft, .topRight, .bottomLeft, .bottomRight, .allCorners]
         
-        if #available(iOS 11.0, *) {
+        if #available(iOS 11.0, tvOS 11.0, *) {
             for corner in allCorners {
                 if corners.contains(corner) {
                     switch corner {
