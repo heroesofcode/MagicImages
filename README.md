@@ -143,7 +143,7 @@ override func viewDidLoad() {
     
 ```swift
 dependencies: [
-    .package(url: "https://github.com/heroesofcode/MagicImages.git", .upToNextMajor(from: "0.3.3"))
+    .package(url: "https://github.com/heroesofcode/MagicImages.git", .upToNextMajor(from: "0.4.3"))
 ]
 ```
 
@@ -161,9 +161,15 @@ import MagicImages
 
 ```ruby
 target '<Your Target Name>' do
-  pod 'MagicImages'
+    pod 'MagicImages'
 end
 ```
+<b>OR</b>
+```ruby
+target '<Your Target Name>' do
+    pod 'MagicImages', :git => "https://github.com/heroesofcode/MagicImages.git"
+end
+```  
 
 ```bash
 $ pod install
