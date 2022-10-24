@@ -13,7 +13,7 @@
 Magic Image is a library to facilitate the development of the image in various ways.
 
 ## Support
-<img src="https://img.shields.io/cocoapods/p/MagicImages.svg?style=flat">
+iOS / tvOS
 
 ## How to use?
 
