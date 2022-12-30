@@ -15,7 +15,7 @@ Magic Image is a library to facilitate the development of the image in various w
 ## Support
 iOS / tvOS
 
-## How to use?
+## Usage
 
 #### First Example
 You can use it to view an image through a url, follow the example below
