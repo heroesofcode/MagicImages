@@ -10,6 +10,9 @@ disabled_rules:
   - unused_enumerated
   - function_parameter_count
   - file_length
+  
+vertical_whitespace:
+    severity: error
 
 opt_in_rules:
   - empty_count
