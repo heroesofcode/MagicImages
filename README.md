@@ -143,7 +143,7 @@ override func viewDidLoad() {
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/heroesofcode/MagicImages.git", .upToNextMajor(from: "0.4.3"))
+    .package(url: "https://github.com/heroesofcode/MagicImages.git", .upToNextMajor(from: "0.5.0"))
 ]
 ```
 

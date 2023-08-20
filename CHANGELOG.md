@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version 0.5.0
+**2023-08-19**
+
+- Fix SwiftLint error (For where)
+- We will no longer support CocoaPods and Carthage
+
 ## Version 0.4.3
 **2021-10-31**
 
