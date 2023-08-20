@@ -4,7 +4,6 @@
 [![codecov](https://codecov.io/gh/heroesofcode/MagicImages/branch/main/graph/badge.svg?token=LVIQ3H0PTH)](https://codecov.io/gh/heroesofcode/MagicImages)
 [![Swift Version](https://img.shields.io/badge/Swift-5.0.x-orange.svg)]()
 [![Tag](https://img.shields.io/github/v/tag/heroesofcode/MagicImages?logo=github)](https://github.com/heroesofcode/MagicImages/releases)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager)
 [![License](https://img.shields.io/github/license/joaolfp/ViewState.svg)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
 
@@ -148,10 +147,13 @@ dependencies: [
 ]
 ```
 
-### [Carthage](https://github.com/Carthage/Carthage)
+## Contributing
 
+To contribute, just fork this project and then open a pull request, feel free to contribute, bring ideas and raise any problem in the issue tab..
+
+The `Xcode` project is generated using [Tuist](https://tuist.io/). To generate and open the project in Xcode, you just need to run:
 ```
-github "heroesofcode/MagicImages"
+tuist generate
 ```
 
 ## Author
