@@ -57,6 +57,14 @@ final class ViewController: UIViewController {
         firstExample.heightAnchor.constraint(equalToConstant: 100).isActive = true
 
         MagicImages(image: firstExample).start(url: url)
+        
+        /**
+         MagicImages(image: firstExample).start(name: "photo")
+         
+         OR
+         
+         MagicImages(image: firstExample).start(uiImage: UIImage(systemName: "heart.fill"))
+         */
     }
     
     // MARK: - Circle
