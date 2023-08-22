@@ -2,7 +2,6 @@
 
 [![CI](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml)
 [![codecov](https://codecov.io/gh/heroesofcode/MagicImages/branch/main/graph/badge.svg?token=LVIQ3H0PTH)](https://codecov.io/gh/heroesofcode/MagicImages)
-[![Swift Version](https://img.shields.io/badge/Swift-5.0.x-orange.svg)]()
 [![Tag](https://img.shields.io/github/v/tag/heroesofcode/MagicImages?logo=github)](https://github.com/heroesofcode/MagicImages/releases)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager)
 [![License](https://img.shields.io/github/license/joaolfp/ViewState.svg)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
@@ -38,6 +37,10 @@ override func viewDidLoad() {
     photo.heightAnchor.constraint(equalToConstant: 100).isActive = true
 
     MagicImages(image: photo).start(url: "IMAGE URL")
+    // OR
+    MagicImages(image: firstExample).start(name: "photo")
+    // OR
+    MagicImages(image: firstExample).start(uiImage: UIImage(systemName: "heart.fill"))
 }
 ```
 
