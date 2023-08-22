@@ -84,14 +84,4 @@ final class MagicImagesTests: XCTestCase {
         
         XCTAssertEqual(image.layer.cornerRadius, 50)
     }
-    
-    static var allTests = [
-        ("testVerifyIsCircleWithSuccess", testVerifyIsCircleWithSuccess),
-        ("testVerifyIsRoundedWithSuccess", testVerifyIsRoundedWithSuccess),
-        ("testVerifyIsSidesWithSuccess", testVerifyIsSidesWithSuccess),
-        ("testVerifyGetImageWithSuccess", testVerifyGetImageWithSuccess),
-        ("testVerifyRadiusInRoundCorners", testVerifyRadiusInRoundCorners),
-        ("testVerifyIsCircleInterfaceBuilderIsTrue", testVerifyIsCircleInterfaceBuilderIsTrue),
-        ("testVerifyIsRoundedInterfaceBuilderWithSuccess", testVerifyIsRoundedInterfaceBuilderWithSuccess)
-    ]
 }
