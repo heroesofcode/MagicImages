@@ -2,7 +2,7 @@ import Foundation
 import XCTest
 @testable import MagicImages
 
-class UIImageViewDownloadTests: XCTestCase {
+final class UIImageViewDownloadTests: XCTestCase {
     
     var imageView: UIImageView!
     
@@ -12,8 +12,9 @@ class UIImageViewDownloadTests: XCTestCase {
     }
     
     override func tearDown() {
-        imageView = nil
         super.tearDown()
+        
+        imageView = nil
     }
     
     func testImageDownload() {
@@ -28,15 +29,12 @@ class UIImageViewDownloadTests: XCTestCase {
             expectation.fulfill()
         }
         
-        wait(for: [expectation], timeout: 10.0) // Adjust timeout as needed
+        wait(for: [expectation], timeout: 10.0)
     }
     
     func testInvalidURL() {
         let invalidUrlString = "invalid-url"
-        
         imageView.download(image: invalidUrlString)
-        
-        // The imageView's image should remain nil due to an invalid URL
         XCTAssertNil(imageView.image, "Image should not be set for an invalid URL")
     }
 }
