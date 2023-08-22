@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version 1.0.0
+**2023-08-22**
+
+- Added new parameters to load local image
+- Improved project structure
+
 ## Version 0.5.0
 **2023-08-19**
 

@@ -38,7 +38,7 @@ override func viewDidLoad() {
 
     MagicImages(image: photo).start(url: "IMAGE URL")
     // OR
-    MagicImages(image: firstExample).start(name: "photo")
+    MagicImages(image: firstExample).start(name: "IMAGE NAME")
     // OR
     MagicImages(image: firstExample).start(uiImage: UIImage(systemName: "heart.fill"))
 }
@@ -146,7 +146,7 @@ override func viewDidLoad() {
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/heroesofcode/MagicImages.git", .upToNextMajor(from: "0.5.0"))
+    .package(url: "https://github.com/heroesofcode/MagicImages.git", .upToNextMajor(from: "1.0.0"))
 ]
 ```
 
