@@ -38,9 +38,9 @@ override func viewDidLoad() {
 
     MagicImages(image: photo).start(url: "IMAGE URL")
     // OR
-    MagicImages(image: firstExample).start(name: "IMAGE NAME")
+    MagicImages(image: photo).start(name: "IMAGE NAME")
     // OR
-    MagicImages(image: firstExample).start(uiImage: UIImage(systemName: "heart.fill"))
+    MagicImages(image: photo).start(uiImage: UIImage(systemName: "heart.fill"))
 }
 ```
 
