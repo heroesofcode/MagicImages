@@ -19,6 +19,24 @@ public class MagicImages {
         return self
     }
     
+    /// Add the image local with name
+    /// - Parameter name: Image name
+    /// - Returns: Returns the method applied and activated
+    @discardableResult
+    public func start(name: String) -> Self {
+        image.image = UIImage(named: name)
+        return self
+    }
+    
+    /// Add the image local with any type of UIImage
+    /// - Parameter uiImage: Variable type UIImage
+    /// - Returns: Returns the method applied and activated
+    @discardableResult
+    public func start(uiImage: UIImage?) -> Self {
+        image.image = uiImage
+        return self
+    }
+    
     /// Add the image circle
     /// - Parameter measure: Corner Radius
     /// - Returns: Returns the method applied and activated

@@ -12,6 +12,24 @@ final class MagicImagesTests: XCTestCase {
         super.tearDown()
     }
     
+    func testVerifyStartWithURL() {
+        let image = UIImageView()
+        MagicImages(image: image).start(url: "https://www.image.com/photo.png")
+        XCTAssertNotNil(image)
+    }
+    
+    func testVerifyStartWithName() {
+        let image = UIImageView()
+        MagicImages(image: image).start(name: "photo")
+        XCTAssertNotNil(image)
+    }
+    
+    func testVerifyStartWithUIImage() {
+        let image = UIImageView()
+        MagicImages(image: image).start(uiImage: UIImage())
+        XCTAssertNotNil(image)
+    }
+    
     func testVerifyIsCircleWithSuccess() {
         let image = UIImageView()
         MagicImages(image: image).start(url: "https://www.image.com/photo.png").isCircle(measure: 100)
