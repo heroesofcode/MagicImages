@@ -152,9 +152,6 @@ dependencies: [
 
 To contribute, just fork this project and then open a pull request, feel free to contribute, bring ideas and raise any problem in the issue tab.
 
-## Author
-Coded by [João Lucas](https://github.com/joaolfp)
-
 ## License
 
 MagicImages is released under the MIT license. See LICENSE for details.
