@@ -22,7 +22,7 @@ jobs:
             swiftlint
             
     - name: Build and Tests
-      run: make test
+      run: swift test --enable-code-coverage
       
     - name: Danger action
       uses: MeilCli/danger-action@v5.6.21
@@ -35,5 +35,7 @@ jobs:
       env:
         DANGER_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v3.1.4
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
