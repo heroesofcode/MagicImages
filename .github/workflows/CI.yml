@@ -20,8 +20,11 @@ jobs:
       run: |
             set -o pipefail
             swiftlint
+
+    - name: Build
+      run: make build
             
-    - name: Build and Tests
+    - name: Run tests
       run: make test
       
     - name: Danger action
