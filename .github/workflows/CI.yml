@@ -21,15 +21,8 @@ jobs:
             set -o pipefail
             swiftlint
             
-    - name: Build
-      run: |
-            set -o pipefail
-            swift build
-            
-    - name: Run tests
-      run: |
-            set -o pipefail
-            swift test
+    - name: Build and Tests
+      run: make test
       
     - name: Danger action
       uses: MeilCli/danger-action@v5.6.22
