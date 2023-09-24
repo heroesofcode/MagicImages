@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "MagicImages",
-    platforms: [.iOS(.v12), .tvOS(.v12)],
+    platforms: [.iOS(.v12), .tvOS(.v9)],
     products: [
         .library(
             name: "MagicImages",
