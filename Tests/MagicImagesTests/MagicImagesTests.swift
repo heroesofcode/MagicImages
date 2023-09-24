@@ -48,9 +48,7 @@ final class MagicImagesTests: XCTestCase {
             .isSides([.topLeft, .bottomRight], measures: 20)
             
         XCTAssertEqual(image.layer.cornerRadius, 20)
-        if #available(tvOS 11.0, *) {
-            XCTAssertEqual(image.layer.maskedCorners, [.layerMaxXMaxYCorner, .layerMinXMinYCorner])
-        }
+        XCTAssertEqual(image.layer.maskedCorners, [.layerMaxXMaxYCorner, .layerMinXMinYCorner])
     }
     
     func testVerifyGetImageWithSuccess() {
