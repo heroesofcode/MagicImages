@@ -146,7 +146,7 @@ import PackageDescription
 let package = Package(
     name: "<Your Product Name>",
     dependencies: [
-       .package(url: "https://github.com/heroesofcode/MagicImage", .upToNextMajor(from: "1.0.0"))
+       .package(url: "https://github.com/heroesofcode/MagicImages", .upToNextMajor(from: "1.0.0"))
     ],
     targets: [
         .target(
