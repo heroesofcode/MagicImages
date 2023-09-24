@@ -9,9 +9,6 @@
 ## Overview
 Magic Image is a library to facilitate the development of the image in various ways.
 
-## Support
-iOS / tvOS
-
 ## Usage
 
 #### First Example
@@ -145,9 +142,18 @@ override func viewDidLoad() {
 ### [Swift Package Manager (SPM)](https://swift.org/package-manager)
 
 ```swift
-dependencies: [
-    .package(url: "https://github.com/heroesofcode/MagicImages.git", .upToNextMajor(from: "1.0.0"))
-]
+import PackageDescription
+let package = Package(
+    name: "<Your Product Name>",
+    dependencies: [
+       .package(url: "https://github.com/heroesofcode/MagicImage", .upToNextMajor(from: "1.0.0"))
+    ],
+    targets: [
+        .target(
+            name: "<Your Target Name>",
+            dependencies: ["MagicImages"]),
+    ]
+)
 ```
 
 ## Contributing
