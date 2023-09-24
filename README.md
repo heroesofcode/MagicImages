@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fheroesofcode%2FMagicImages%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/heroesofcode/MagicImages)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fheroesofcode%2FMagicImages%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/heroesofcode/MagicImages)
 [![License](https://img.shields.io/github/license/joaolfp/ViewState.svg)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
 
 ## Overview
