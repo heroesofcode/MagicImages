@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version 1.1.0
+**2023-09-25**
+
+- MagicImages now requires iOS 12+ and tvOS 12+.
+
 ## Version 1.0.0
 **2023-08-22**
 
