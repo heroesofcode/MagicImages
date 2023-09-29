@@ -1,7 +1,7 @@
 #if canImport(SwiftUI)
 import SwiftUI
 
-@available(iOS 13.0, *)
+@available(iOS 13.0, tvOS 13.0, *)
 extension Image {
     func download(url: String) -> Self {
         if let url = URL(string: url) {
