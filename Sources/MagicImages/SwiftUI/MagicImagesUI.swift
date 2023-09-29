@@ -4,14 +4,14 @@ import SwiftUI
 @available(iOS 13.0, *)
 public struct MagicImagesUI: View {
     
-    private var url: URL
+    private var url: String
     
-    public init(url: URL) {
+    public init(url: String) {
         self.url = url
     }
     
     public var body: some View {
-        Image("photo").download(url: url)
+        Image("photo_magic_images").download(url: url)
     }
 }
 #endif
@@ -21,7 +21,7 @@ public struct MagicImagesUI: View {
 struct MagicImages_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            MagicImagesUI(url: URL(string: "https://raw.githubusercontent.com/heroesofcode/MagicImages/main/Example/Example/Assets.xcassets/photo.imageset/photo.jpeg")!)
+            MagicImagesUI(url: "https://raw.githubusercontent.com/heroesofcode/MagicImages/main/Example/Example/Assets.xcassets/photo.imageset/photo.jpeg")
                 .frame(width: 300, height: 300)
         }
     }
