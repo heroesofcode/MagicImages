@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version 1.2.0
+**2023-09-28**
+
+- SwiftUI Support
+
 ## Version 1.1.0
 **2023-09-25**
 
