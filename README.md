@@ -41,6 +41,14 @@ override func viewDidLoad() {
 }
 ```
 
+#### Example SwiftUI
+
+```swift
+MagicImagesUI(url: "www.example.com/image.jpg")
+    .frame(width: 300, height: 300)
+    .cornerRadius(20)
+```
+
 #### Second Example
 You can use it to view a circular image. <b>Measure</b> is the width and height, follow the example below
 
