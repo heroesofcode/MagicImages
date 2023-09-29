@@ -1,7 +1,7 @@
 #if canImport(SwiftUI)
 import SwiftUI
 
-@available(iOS 13.0, *)
+@available(iOS 13.0, tvOS 13.0, *)
 public struct MagicImagesUI: View {
     
     private var url: String
