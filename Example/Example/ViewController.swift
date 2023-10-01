@@ -56,7 +56,7 @@ final class ViewController: UIViewController {
         firstExample.widthAnchor.constraint(equalToConstant: 150).isActive = true
         firstExample.heightAnchor.constraint(equalToConstant: 100).isActive = true
 
-        MagicImages(image: firstExample).start(url: url)
+        MagicImages(image: firstExample).start(url: url, placeholder: "photo")
         
         /**
          MagicImages(image: firstExample).start(name: "photo")
@@ -74,7 +74,7 @@ final class ViewController: UIViewController {
         secondExample.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16).isActive = true
         secondExample.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16).isActive = true
 
-        MagicImages(image: secondExample).start(url: url).isCircle(measure: 150)
+        MagicImages(image: secondExample).start(url: url, placeholder: "photo").isCircle(measure: 150)
     }
     
     // MARK: - Border rounded
@@ -86,7 +86,7 @@ final class ViewController: UIViewController {
         thirdExample.widthAnchor.constraint(equalToConstant: 150).isActive = true
         thirdExample.heightAnchor.constraint(equalToConstant: 100).isActive = true
 
-        MagicImages(image: thirdExample).start(url: url).isRounded(measure: 20)
+        MagicImages(image: thirdExample).start(url: url, placeholder: "photo").isRounded(measure: 20)
     }
     
     // MARK: - Border sides
@@ -98,6 +98,7 @@ final class ViewController: UIViewController {
         lastExample.widthAnchor.constraint(equalToConstant: 150).isActive = true
         lastExample.heightAnchor.constraint(equalToConstant: 100).isActive = true
 
-        MagicImages(image: lastExample).start(url: url).isSides([.topLeft, .bottomRight], measures: 50)
+        MagicImages(image: lastExample).start(url: url, placeholder: "photo")
+            .isSides([.topLeft, .bottomRight], measures: 50)
     }
 }

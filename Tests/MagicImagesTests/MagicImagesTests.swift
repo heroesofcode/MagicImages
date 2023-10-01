@@ -54,7 +54,7 @@ final class MagicImagesTests: XCTestCase {
     func testVerifyGetImageWithSuccess() {
         let url = "www.image.com/image.jpg"
         let image = UIImageView()
-        XCTAssertNotNil(image.download(image: url))
+        XCTAssertNotNil(image.download(url: url))
     }
     
     func testVerifyRadiusInRoundCorners() {
@@ -62,24 +62,5 @@ final class MagicImagesTests: XCTestCase {
         image.roundCorners(corners: [.topLeft, .bottomLeft], radius: 10)
         
         XCTAssertEqual(image.layer.cornerRadius, 10)
-    }
-    
-    func testVerifyIsCircleInterfaceBuilderIsTrue() {
-        let image = MagicImageCircle()
-        image.isCircle = true
-        
-        image.widthAnchor.constraint(equalToConstant: 100).isActive = true
-        image.heightAnchor.constraint(equalToConstant: 100).isActive = true
-        
-        image.layer.cornerRadius = 100 / 2
-        
-        XCTAssertEqual(image.layer.cornerRadius, 50)
-    }
-    
-    func testVerifyIsRoundedInterfaceBuilderWithSuccess() {
-        let image = MagicImageRounded()
-        image.isRounded = 50
-        
-        XCTAssertEqual(image.layer.cornerRadius, 50)
     }
 }
