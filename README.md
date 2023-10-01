@@ -17,30 +17,19 @@ You can use it to view an image through a url, follow the example below
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/start.png" width="400px" height="700px" />
 
 ```swift
-let photo: UIImageView = {
-    let imageView = UIImageView()
-    imageView.translatesAutoresizingMaskIntoConstraints = false
-    return imageView
-}()
-
-override func viewDidLoad() {
-    super.viewDidLoad()
-
-    view.addSubview(photo)
-
-    photo.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-    photo.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-    photo.widthAnchor.constraint(equalToConstant: 100).isActive = true
-    photo.heightAnchor.constraint(equalToConstant: 100).isActive = true
-
     MagicImages(image: photo).start(url: "IMAGE URL")
+    
     // OR
+    
     MagicImages(image: photo).start(name: "IMAGE NAME")
+    
     // OR
+    
     MagicImages(image: photo).start(uiImage: UIImage(systemName: "heart.fill"))
+    
     // OR
+    
     MagicImages(image: firstExample).start(url: url, placeholder: "photo")
-}
 ```
 
 #### Example SwiftUI
@@ -54,27 +43,13 @@ var body: some View {
 ```
 
 #### Second Example
-You can use it to view a circular image. <b>Measure</b> is the width and height, follow the example below
+You can use it to view a circular image. <b>Measure</b> is the width and height, follow the example below. Here you
+don't need to put width and height in the constraint in the measure parameter, MagicImages is already doing that.
 
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/circle.png" width="400px" height="700px" />
 
 ```swift
-let photo: UIImageView = {
-    let imageView = UIImageView()
-    imageView.translatesAutoresizingMaskIntoConstraints = false
-    return imageView
-}()
-
-override func viewDidLoad() {
-    super.viewDidLoad()
-
-    view.addSubview(photo)
-
-    photo.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-    photo.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-
     MagicImages(image: photo).start(url: "IMAGE URL").isCircle(measure: 100)
-}
 ```
 
 #### Third Example
@@ -83,24 +58,7 @@ You can use it to see an image with rounded edges. <b>Measure</b> is rounded edg
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/rounded.png" width="400px" height="700px" />
 
 ```swift
-let photo: UIImageView = {
-    let imageView = UIImageView()
-    imageView.translatesAutoresizingMaskIntoConstraints = false
-    return imageView
-}()
-
-override func viewDidLoad() {
-    super.viewDidLoad()
-
-    view.addSubview(photo)
-
-    photo.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-    photo.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-    photo.widthAnchor.constraint(equalToConstant: 300).isActive = true
-    photo.heightAnchor.constraint(equalToConstant: 200).isActive = true
-        
     MagicImages(image: photo).start(url: "IMAGE URL").isRounded(measure: 20)
-}
 ```
 
 #### Last Example
@@ -109,24 +67,7 @@ You can use it to see an image with some sides of the rounded edges. <b>Measure<
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/sides.png" width="400px" height="700px" />
 
 ```swift
-let photo: UIImageView = {
-        let imageView = UIImageView()
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        return imageView
- }()
-
-override func viewDidLoad() {
-    super.viewDidLoad()
-
-    view.addSubview(photo)
-
-    photo.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-    photo.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-    photo.widthAnchor.constraint(equalToConstant: 300).isActive = true
-    photo.heightAnchor.constraint(equalToConstant: 200).isActive = true
-        
     MagicImages(image: photo).start(url: "IMAGE URL").isSides([.topLeft, .bottomRight], measures: 50)
-}
 ```
 
 ### Examples with Interface Builder
