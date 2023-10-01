@@ -15,7 +15,17 @@ public class MagicImages {
     /// - Returns: Returns the method applied and activated
     @discardableResult
     public func start(url: String) -> Self {
-        image.download(image: url)
+        image.download(url: url)
+        return self
+    }
+    
+    /// Add the image URL and Placeholder
+    /// - Parameter url: Image URL
+    /// - Parameter placeholder: Image placeholder
+    /// - Returns: Returns the method applied and activated
+    @discardableResult
+    public func start(url: String, placeholder: String) -> Self {
+        image.download(url: url, placeholder: UIImage(named: placeholder))
         return self
     }
     

@@ -54,7 +54,7 @@ final class MagicImagesTests: XCTestCase {
     func testVerifyGetImageWithSuccess() {
         let url = "www.image.com/image.jpg"
         let image = UIImageView()
-        XCTAssertNotNil(image.download(image: url))
+        XCTAssertNotNil(image.download(url: url))
     }
     
     func testVerifyRadiusInRoundCorners() {

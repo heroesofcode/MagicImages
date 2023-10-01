@@ -22,7 +22,7 @@ final class UIImageViewDownloadTests: XCTestCase {
         
         let imageUrlString = "https://avatars.githubusercontent.com/u/79725010?s=400&v=4"
         
-        imageView.download(image: imageUrlString)
+        imageView.download(url: imageUrlString)
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
             XCTAssertNotNil(self.imageView.image)
@@ -34,7 +34,7 @@ final class UIImageViewDownloadTests: XCTestCase {
     
     func testInvalidURL() {
         let invalidUrlString = "invalid-url"
-        imageView.download(image: invalidUrlString)
+        imageView.download(url: invalidUrlString)
         XCTAssertNil(imageView.image, "Image should not be set for an invalid URL")
     }
 }
