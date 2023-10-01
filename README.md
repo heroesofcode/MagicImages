@@ -69,26 +69,6 @@ You can use it to see an image with some sides of the rounded edges. <b>Measure<
     MagicImages(image: photo).start(url: "IMAGE URL").isSides([.topLeft, .bottomRight], measures: 50)
 ```
 
-### Examples with Interface Builder
-
-#### 1 - Circle
-
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/Example-Class-Circle.png" width="500px" height="200px" />
-
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/Example-Circle.png" width="500px" height="200px" />
-
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/InterfaceBuilder-Circle.png" width="400px" height="800px" />
-
-#### 2 - Rounded Edges
-
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/Example-Class-Rounded.png" width="500px" height="200px" />
-
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/Example-Rounded.png" width="500px" height="200px" />
-
-<img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/InterfaceBuilder-Rounded.png" width="400px" height="800px" />
-
-
-
 ## Installation
 
 ### [Swift Package Manager (SPM)](https://swift.org/package-manager)

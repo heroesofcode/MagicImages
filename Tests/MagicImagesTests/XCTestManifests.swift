@@ -8,8 +8,6 @@ public func allTests() -> [XCTestCaseEntry] {
         ("testVerifyIsSidesWithSuccess", testVerifyIsSidesWithSuccess),
         ("testVerifyGetImageWithSuccess", testVerifyGetImageWithSuccess),
         ("testVerifyRadiusInRoundCorners", testVerifyRadiusInRoundCorners),
-        ("testVerifyIsCircleInterfaceBuilderIsTrue", testVerifyIsCircleInterfaceBuilderIsTrue),
-        ("testVerifyIsRoundedInterfaceBuilderWithSuccess", testVerifyIsRoundedInterfaceBuilderWithSuccess),
         ("testImageDownload", testImageDownload),
         ("testInvalidURL", testInvalidURL)
     ]
