@@ -43,8 +43,7 @@ var body: some View {
 ```
 
 #### Second Example
-You can use it to view a circular image. <b>Measure</b> is the width and height, follow the example below. Here you
-don't need to put width and height in the constraint in the measure parameter, MagicImages is already doing that.
+You can use it to view a circular image. Measure is the width and height, follow the example below. Here you don't need to put width and height in the constraint, in the measure parameter MagicImages is already doing that.
 
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/circle.png" width="400px" height="700px" />
 
