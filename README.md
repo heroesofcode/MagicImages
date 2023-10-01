@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/github/license/joaolfp/ViewState.svg)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
 
 ## Overview
-Magic Image is a library to facilitate the development of the image in various ways.
+MagicImages is a library to facilitate the development of the image in various ways. MagicImages provides cache support.
 
 ## Usage
 
@@ -38,15 +38,19 @@ override func viewDidLoad() {
     MagicImages(image: photo).start(name: "IMAGE NAME")
     // OR
     MagicImages(image: photo).start(uiImage: UIImage(systemName: "heart.fill"))
+    // OR
+    MagicImages(image: firstExample).start(url: url, placeholder: "photo")
 }
 ```
 
 #### Example SwiftUI
 
 ```swift
-MagicImagesUI(url: "www.example.com/image.jpg")
-    .frame(width: 300, height: 300)
-    .cornerRadius(20)
+var body: some View {
+     MagicImagesUI(url: "www.example.com/image.jpg")
+        .frame(width: 300, height: 300)
+        .cornerRadius(20)
+}
 ```
 
 #### Second Example
