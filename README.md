@@ -20,16 +20,16 @@ You can use it to view an image through a url, follow the example below
 MagicImages(image: photo).start(url: "IMAGE URL")
     
 // OR
+
+MagicImages(image: firstExample).start(url: "IMAGE URL", placeholder: "PhotoLocal")
+
+// OR
     
 MagicImages(image: photo).start(name: "IMAGE NAME")
     
 // OR
     
 MagicImages(image: photo).start(uiImage: UIImage(systemName: "heart.fill"))
-    
-// OR
-    
-MagicImages(image: firstExample).start(url: url, placeholder: "photo")
 ```
 
 #### Example SwiftUI
