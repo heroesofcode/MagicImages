@@ -35,7 +35,7 @@ extension UIImageView {
     }
     
     private func dataTask(request: URLRequest, cache: URLCache) {
-        URLSession.shared.dataTask(with: request) { [weak self] (data, response, error) in
+        URLSession.shared.dataTask(with: request) { [weak self] (data, response, _) in
             guard let data = data, let httpResponse = response as? HTTPURLResponse, 200...299 ~= httpResponse.statusCode, let image = UIImage(data: data) else { return }
             
             let cachedData = CachedURLResponse(response: httpResponse, data: data)
