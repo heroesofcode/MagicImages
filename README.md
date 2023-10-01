@@ -21,7 +21,7 @@ MagicImages(image: photo).start(url: "IMAGE URL")
     
 // OR
 
-MagicImages(image: firstExample).start(url: "IMAGE URL", placeholder: "PhotoLocal")
+MagicImages(image: photo).start(url: "IMAGE URL", placeholder: "PhotoLocal")
 
 // OR
     
