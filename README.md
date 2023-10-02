@@ -9,7 +9,10 @@
 [![License](https://img.shields.io/github/license/joaolfp/ViewState.svg)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
 
 ## Overview
-Magic Images is a library to facilitate the development of the image in various ways. Magic Images provides cache support.
+
+- [x] A library to facilitate the development of the image in various ways.
+- [x] Provides caching support.
+- [x] SwiftUI support.
 
 ## Usage
 
