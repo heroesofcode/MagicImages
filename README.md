@@ -1,4 +1,6 @@
-# Magic Images :camera_flash:
+<p align="center">
+    <img src="https://github.com/heroesofcode/MagicImages/blob/main/.github/assets/logo.png">
+</p>
 
 [![CI](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/MagicImages/actions/workflows/CI.yml)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager)
