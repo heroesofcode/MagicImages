@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/github/license/joaolfp/ViewState.svg)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
 
 ## Overview
-MagicImages is a library to facilitate the development of the image in various ways. MagicImages provides cache support.
+Magic Images is a library to facilitate the development of the image in various ways. Magic Images provides cache support.
 
 ## Usage
 
