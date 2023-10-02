@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## Version 1.3.0
+**2023-10-02**
+
+- Add cache support
+- New parameter for placeholder (When the api fails, the placeholder image will appear)
+- Remove interface builder support
+- Updated documentation
+
 ## Version 1.2.0
 **2023-09-28**
 
