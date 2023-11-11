@@ -16,6 +16,11 @@ struct ContentView: View {
                 } label: {
                     Label("Demo", systemImage: "text.quote")
                 }
+                NavigationLink {
+                    ViewControllerCircle().navigationTitle("Circle")
+                } label: {
+                    Label("Circle", systemImage: "text.quote")
+                }
             }
         }
     }

@@ -13,6 +13,7 @@
 		C52824BF2AFFD8A100FD99C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52824BE2AFFD8A100FD99C8 /* Preview Assets.xcassets */; };
 		C52824C82AFFD99A00FD99C8 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52824C72AFFD99A00FD99C8 /* DemoViewController.swift */; };
 		C52824CC2AFFDA6600FD99C8 /* MagicImages in Frameworks */ = {isa = PBXBuildFile; productRef = C52824CB2AFFDA6600FD99C8 /* MagicImages */; };
+		C52824CF2AFFDB5600FD99C8 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52824CE2AFFDB5600FD99C8 /* CircleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C52824BE2AFFD8A100FD99C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C52824C72AFFD99A00FD99C8 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		C52824CA2AFFDA6200FD99C8 /* MagicImages */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MagicImages; path = ..; sourceTree = "<group>"; };
+		C52824CE2AFFDB5600FD99C8 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		C52824C52AFFD92700FD99C8 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				C52824CD2AFFDB4900FD99C8 /* Circle */,
 				C52824C62AFFD96000FD99C8 /* Demo */,
 			);
 			path = Screens;
@@ -96,6 +99,14 @@
 				C52824CA2AFFDA6200FD99C8 /* MagicImages */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C52824CD2AFFDB4900FD99C8 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				C52824CE2AFFDB5600FD99C8 /* CircleViewController.swift */,
+			);
+			path = Circle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 			files = (
 				C52824C82AFFD99A00FD99C8 /* DemoViewController.swift in Sources */,
 				C52824BA2AFFD8A000FD99C8 /* ContentView.swift in Sources */,
+				C52824CF2AFFDB5600FD99C8 /* CircleViewController.swift in Sources */,
 				C52824B82AFFD8A000FD99C8 /* ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

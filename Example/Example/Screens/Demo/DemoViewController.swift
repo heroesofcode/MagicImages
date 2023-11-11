@@ -27,7 +27,7 @@ final class DemoViewController: UIViewController {
     
     private let url = "https://images.alphacoders.com/270/270241.jpg"
     
-    private lazy var firstExample: UIImageView = {
+    private lazy var imageExample: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
@@ -38,21 +38,21 @@ final class DemoViewController: UIViewController {
         
         view.backgroundColor = .white
         
-        view.addSubview(firstExample)
+        view.addSubview(imageExample)
         
-        firstExample.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        firstExample.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        firstExample.widthAnchor.constraint(equalToConstant: 200).isActive = true
-        firstExample.heightAnchor.constraint(equalToConstant: 200).isActive = true
+        imageExample.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        imageExample.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        imageExample.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        imageExample.heightAnchor.constraint(equalToConstant: 200).isActive = true
         
-        MagicImages(image: firstExample).start(url: url, placeholder: "photo")
+        MagicImages(image: imageExample).start(url: url, placeholder: "photo")
         
         /**
-         MagicImages(image: firstExample).start(name: "photo")
+         MagicImages(image: imageExample).start(name: "photo")
          
          OR
          
-         MagicImages(image: firstExample).start(uiImage: UIImage(systemName: "heart.fill"))
+         MagicImages(image: imageExample).start(uiImage: UIImage(systemName: "heart.fill"))
          */
     }
     
