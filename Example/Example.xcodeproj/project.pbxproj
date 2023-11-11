@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C51BEF262B00186A00557D1B /* SidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BEF252B00186A00557D1B /* SidesViewController.swift */; };
+		C51BEF292B001E9100557D1B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BEF282B001E9100557D1B /* SwiftUIView.swift */; };
 		C52824B82AFFD8A000FD99C8 /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52824B72AFFD8A000FD99C8 /* ExampleApp.swift */; };
 		C52824BA2AFFD8A000FD99C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52824B92AFFD8A000FD99C8 /* ContentView.swift */; };
 		C52824BC2AFFD8A100FD99C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52824BB2AFFD8A100FD99C8 /* Assets.xcassets */; };
@@ -14,9 +16,12 @@
 		C52824C82AFFD99A00FD99C8 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52824C72AFFD99A00FD99C8 /* DemoViewController.swift */; };
 		C52824CC2AFFDA6600FD99C8 /* MagicImages in Frameworks */ = {isa = PBXBuildFile; productRef = C52824CB2AFFDA6600FD99C8 /* MagicImages */; };
 		C52824CF2AFFDB5600FD99C8 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52824CE2AFFDB5600FD99C8 /* CircleViewController.swift */; };
+		C52824D22AFFDD2D00FD99C8 /* RoundedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52824D12AFFDD2D00FD99C8 /* RoundedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C51BEF252B00186A00557D1B /* SidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidesViewController.swift; sourceTree = "<group>"; };
+		C51BEF282B001E9100557D1B /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		C52824B42AFFD8A000FD99C8 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52824B72AFFD8A000FD99C8 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		C52824B92AFFD8A000FD99C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +30,7 @@
 		C52824C72AFFD99A00FD99C8 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		C52824CA2AFFDA6200FD99C8 /* MagicImages */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MagicImages; path = ..; sourceTree = "<group>"; };
 		C52824CE2AFFDB5600FD99C8 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		C52824D12AFFDD2D00FD99C8 /* RoundedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C51BEF242B00185C00557D1B /* Sides */ = {
+			isa = PBXGroup;
+			children = (
+				C51BEF252B00186A00557D1B /* SidesViewController.swift */,
+			);
+			path = Sides;
+			sourceTree = "<group>";
+		};
+		C51BEF272B001E8600557D1B /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				C51BEF282B001E9100557D1B /* SwiftUIView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		C52824AB2AFFD8A000FD99C8 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +101,9 @@
 		C52824C52AFFD92700FD99C8 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				C51BEF272B001E8600557D1B /* SwiftUI */,
+				C51BEF242B00185C00557D1B /* Sides */,
+				C52824D02AFFDD1400FD99C8 /* Rounded */,
 				C52824CD2AFFDB4900FD99C8 /* Circle */,
 				C52824C62AFFD96000FD99C8 /* Demo */,
 			);
@@ -107,6 +132,14 @@
 				C52824CE2AFFDB5600FD99C8 /* CircleViewController.swift */,
 			);
 			path = Circle;
+			sourceTree = "<group>";
+		};
+		C52824D02AFFDD1400FD99C8 /* Rounded */ = {
+			isa = PBXGroup;
+			children = (
+				C52824D12AFFDD2D00FD99C8 /* RoundedViewController.swift */,
+			);
+			path = Rounded;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52824C82AFFD99A00FD99C8 /* DemoViewController.swift in Sources */,
+				C51BEF292B001E9100557D1B /* SwiftUIView.swift in Sources */,
+				C51BEF262B00186A00557D1B /* SidesViewController.swift in Sources */,
 				C52824BA2AFFD8A000FD99C8 /* ContentView.swift in Sources */,
+				C52824D22AFFDD2D00FD99C8 /* RoundedViewController.swift in Sources */,
 				C52824CF2AFFDB5600FD99C8 /* CircleViewController.swift in Sources */,
 				C52824B82AFFD8A000FD99C8 /* ExampleApp.swift in Sources */,
 			);

@@ -10,7 +10,7 @@ import SwiftUI
 import MagicImages
 
 struct ViewControllerDemo: UIViewControllerRepresentable {
-        
+    
     typealias UIViewControllerType = DemoViewController
     
     func makeUIViewController(context: Context) -> DemoViewController {
@@ -48,12 +48,11 @@ final class DemoViewController: UIViewController {
         MagicImages(image: imageExample).start(url: url, placeholder: "photo")
         
         /**
-         MagicImages(image: imageExample).start(name: "photo")
+        MagicImages(image: imageExample).start(name: "photo")
          
          OR
          
-         MagicImages(image: imageExample).start(uiImage: UIImage(systemName: "heart.fill"))
-         */
+        MagicImages(image: imageExample).start(uiImage: UIImage(systemName: "heart.fill"))
+        */
     }
-    
 }

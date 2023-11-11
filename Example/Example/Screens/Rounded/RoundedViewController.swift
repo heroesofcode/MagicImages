@@ -1,5 +1,5 @@
 //
-//  CircleViewController.swift
+//  RoundedViewController.swift
 //  Example
 //
 //  Created by João Lucas on 11/11/23.
@@ -9,21 +9,21 @@ import UIKit
 import SwiftUI
 import MagicImages
 
-struct ViewControllerCircle: UIViewControllerRepresentable {
+struct ViewControllerRounded: UIViewControllerRepresentable {
         
-    typealias UIViewControllerType = CircleViewController
+    typealias UIViewControllerType = RoundedViewController
     
-    func makeUIViewController(context: Context) -> CircleViewController {
-        CircleViewController()
+    func makeUIViewController(context: Context) -> RoundedViewController {
+        RoundedViewController()
     }
     
-    func updateUIViewController(_ uiViewController: CircleViewController, context: Context) {
+    func updateUIViewController(_ uiViewController: RoundedViewController, context: Context) {
         //
     }
     
 }
 
-final class CircleViewController: UIViewController {
+final class RoundedViewController: UIViewController {
     
     private let url = "https://images.alphacoders.com/270/270241.jpg"
     
@@ -42,7 +42,10 @@ final class CircleViewController: UIViewController {
         
         imageExample.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         imageExample.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        imageExample.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        imageExample.heightAnchor.constraint(equalToConstant: 150).isActive = true
         
-        MagicImages(image: imageExample).start(url: url, placeholder: "photo").isCircle(measure: 200)
+        MagicImages(image: imageExample).start(url: url, placeholder: "photo").isRounded(measure: 20)
     }
+    
 }
