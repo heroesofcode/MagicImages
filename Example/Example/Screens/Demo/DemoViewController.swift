@@ -42,7 +42,7 @@ final class DemoViewController: UIViewController {
         
         imageExample.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         imageExample.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        imageExample.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        imageExample.widthAnchor.constraint(equalToConstant: 250).isActive = true
         imageExample.heightAnchor.constraint(equalToConstant: 200).isActive = true
         
         MagicImages(image: imageExample).start(url: url, placeholder: "photo")
