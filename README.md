@@ -105,4 +105,4 @@ To contribute, just fork this project and then open a pull request, feel free to
 
 ## License
 
-MagicImages is released under the MIT license. See LICENSE for details.
+MagicImages is released under the MIT license. See [LICENSE](https://github.com/heroesofcode/MagicImages/blob/feature/add-contributors/LICENSE) for details.
