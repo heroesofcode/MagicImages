@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version 1.4.0
+**2024-01-06**
+
+- Fix error synchronous URL loading with SwiftUI
+- MagicImages now requires iOS 13+ and tvOS 13+
+
 ## Version 1.3.0
 **2023-10-02**
 
