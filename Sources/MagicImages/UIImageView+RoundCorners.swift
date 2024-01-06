@@ -4,15 +4,15 @@ extension UIImageView {
     func roundCorners(corners: UIRectCorner = .allCorners, radius: CGFloat) {
         layer.cornerRadius = radius
         clipsToBounds = true
-            
+
         setupCorners(corners: corners)
     }
-    
+
     private func setupCorners(corners: UIRectCorner) {
         var cornerMark: CACornerMask = []
-        
+
         let allCorners: [UIRectCorner] = [.topLeft, .topRight, .bottomLeft, .bottomRight, .allCorners]
-        
+
         for corner in allCorners where corners.contains(corner) {
             switch corner {
             case .topLeft:
