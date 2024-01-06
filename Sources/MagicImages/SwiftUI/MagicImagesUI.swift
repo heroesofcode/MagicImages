@@ -11,7 +11,9 @@
         }
 
         public var body: some View {
-            Image("photo_magic_images").download(url: url)
+            if let url = URL(string: url) {
+                AsyncImageView(url: url)
+            }
         }
     }
 #endif

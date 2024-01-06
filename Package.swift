@@ -5,18 +5,21 @@ import PackageDescription
 
 let package = Package(
     name: "MagicImages",
-    platforms: [.iOS(.v12), .tvOS(.v12)],
+    platforms: [.iOS(.v13), .tvOS(.v13)],
     products: [
         .library(
             name: "MagicImages",
-            targets: ["MagicImages"])
+            targets: ["MagicImages"]
+        )
     ],
     targets: [
         .target(
             name: "MagicImages",
-            dependencies: []),
+            dependencies: []
+        ),
         .testTarget(
             name: "MagicImagesTests",
-            dependencies: ["MagicImages"])
+            dependencies: ["MagicImages"]
+        )
     ]
 )
