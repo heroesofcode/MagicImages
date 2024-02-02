@@ -36,7 +36,7 @@ jobs:
         DANGER_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v4.0.0
+      uses: codecov/codecov-action@v4.0.1
       with:
         swift: true
         swift_project: MagicImages
