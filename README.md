@@ -14,6 +14,10 @@
 - [x] Provides caching support.
 - [x] SwiftUI support.
 
+## Requirements
+
+- iOS 13.0+ / tvOS 13.0+ / visionOS 1.0+
+
 ## Usage
 
 #### First Example
@@ -83,7 +87,7 @@ import PackageDescription
 let package = Package(
     name: "<Your Product Name>",
     dependencies: [
-       .package(url: "https://github.com/heroesofcode/MagicImages", .upToNextMajor(from: "1.4.0"))
+       .package(url: "https://github.com/heroesofcode/MagicImages", .upToNextMajor(from: "1.5.0"))
     ],
     targets: [
         .target(

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version 1.5.0
+**2024-03-24**
+
+- Added visionOS Support
+
 ## Version 1.4.0
 **2024-01-06**
 
