@@ -20,7 +20,7 @@ jobs:
       run: make test-ios
       
     - name: Danger action
-      uses: MeilCli/danger-action@v6.0.8
+      uses: MeilCli/danger-action@v6.0.9
       if: github.event_name == 'pull_request'
       with:
         plugins_file: 'Gemfile'
