@@ -83,7 +83,8 @@ You can use it to see an image with some sides of the rounded edges. <b>Measure<
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/assets/sides.png" width="310" height="680" />
 
 ```swift
-MagicImages(image: imageView).start(url: "IMAGE URL")
+MagicImages(image: imageView)
+    .start(url: "IMAGE URL")
     .isSides([.topLeft, .bottomRight], measures: 50)
 ```
 
