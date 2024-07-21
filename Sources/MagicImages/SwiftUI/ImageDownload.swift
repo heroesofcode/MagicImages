@@ -15,7 +15,8 @@
             let cache = URLCache.shared
             let request = URLRequest(url: url)
 
-            if let data = cache.cachedResponse(for: request)?.data, let cachedImage = UIImage(data: data) {
+            if let data = cache.cachedResponse(for: request)?.data,
+                let cachedImage = UIImage(data: data) {
                 image = cachedImage
                 return
             }
@@ -28,7 +29,11 @@
                     self?.image = image
 
                     if let data = image?.pngData() {
-                        let response = URLResponse(url: url, mimeType: nil, expectedContentLength: data.count, textEncodingName: nil)
+                        let response = URLResponse(
+                            url: url, mimeType: nil,
+                            expectedContentLength: data.count,
+                            textEncodingName: nil)
+                        
                         let cachedResponse = CachedURLResponse(response: response, data: data)
                         cache.storeCachedResponse(cachedResponse, for: request)
                     }
