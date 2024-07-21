@@ -42,6 +42,8 @@ final class CircleViewController: UIViewController {
         imageExample.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         imageExample.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
 
-        MagicImages(image: imageExample).start(url: url, placeholder: "photo").isCircle(measure: 250)
+        MagicImages(image: imageExample)
+            .start(url: url, placeholder: "photo")
+            .isCircle(measure: 250)
     }
 }

@@ -44,7 +44,8 @@ final class SidesViewController: UIViewController {
         imageExample.widthAnchor.constraint(equalToConstant: 250).isActive = true
         imageExample.heightAnchor.constraint(equalToConstant: 200).isActive = true
 
-        MagicImages(image: imageExample).start(url: url, placeholder: "photo")
+        MagicImages(image: imageExample)
+            .start(url: url, placeholder: "photo")
             .isSides([.topLeft, .bottomRight], measures: 50)
     }
 }

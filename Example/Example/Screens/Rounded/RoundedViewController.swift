@@ -44,6 +44,8 @@ final class RoundedViewController: UIViewController {
         imageExample.widthAnchor.constraint(equalToConstant: 250).isActive = true
         imageExample.heightAnchor.constraint(equalToConstant: 200).isActive = true
 
-        MagicImages(image: imageExample).start(url: url, placeholder: "photo").isRounded(measure: 20)
+        MagicImages(image: imageExample)
+            .start(url: url, placeholder: "photo")
+            .isRounded(measure: 20)
     }
 }
