@@ -18,6 +18,9 @@ jobs:
     
     - name: Run iOS tests
       run: make test-ios
+    
+    - name: Build tvOS
+      run: make build-tvos
       
     - name: Danger action
       uses: MeilCli/danger-action@v6.0.9
