@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## Version 1.6.0
+**2024-07-21**
+
+- Updated to ensure the cache is checked before trying to download the image - #68 - @joaolfp
+- Bump activesupport from 5.2.8.1 to 6.1.7.5 - #69 - @dependabot
+- Bump rexml from 3.2.9 to 3.3.2 - #70 - @dependabot
+
 ## Version 1.5.0
 **2024-03-24**
 
