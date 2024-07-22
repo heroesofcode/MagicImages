@@ -26,19 +26,23 @@ You can use it to view an image through a url, follow the example below
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/assets/start.png" width="310" height="680" />
 
 ```swift
-MagicImages(image: imageView).start(url: "IMAGE URL")
+MagicImages(image: imageView)
+    .start(url: "IMAGE URL")
     
 // OR
 
-MagicImages(image: imageView).start(url: "IMAGE URL", placeholder: "PhotoLocal")
+MagicImages(image: imageView)
+    .start(url: "IMAGE URL", placeholder: "PhotoLocal")
 
 // OR
     
-MagicImages(image: imageView).start(name: "IMAGE NAME")
+MagicImages(image: imageView)
+    .start(name: "IMAGE NAME")
     
 // OR
     
-MagicImages(image: imageView).start(uiImage: UIImage(systemName: "heart.fill"))
+MagicImages(image: imageView)
+    .start(uiImage: UIImage(systemName: "heart.fill"))
 ```
 
 #### Example SwiftUI
@@ -57,7 +61,9 @@ You can use it to view a circular image. Measure is the width and height, follow
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/assets/circle.png" width="310" height="680" />
 
 ```swift
-MagicImages(image: imageView).start(url: "IMAGE URL").isCircle(measure: 100)
+MagicImages(image: imageView)
+    .start(url: "IMAGE URL")
+    .isCircle(measure: 100)
 ```
 
 #### Third Example
@@ -66,7 +72,9 @@ You can use it to see an image with rounded edges. <b>Measure</b> is rounded edg
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/assets/rounded.png" width="310" height="680" />
 
 ```swift
-MagicImages(image: imageView).start(url: "IMAGE URL").isRounded(measure: 20)
+MagicImages(image: imageView)
+    .start(url: "IMAGE URL")
+    .isRounded(measure: 20)
 ```
 
 #### Last Example
@@ -75,7 +83,9 @@ You can use it to see an image with some sides of the rounded edges. <b>Measure<
 <img src="https://github.com/heroesofcode/MagicImages/blob/main/assets/sides.png" width="310" height="680" />
 
 ```swift
-MagicImages(image: imageView).start(url: "IMAGE URL").isSides([.topLeft, .bottomRight], measures: 50)
+MagicImages(image: imageView)
+    .start(url: "IMAGE URL")
+    .isSides([.topLeft, .bottomRight], measures: 50)
 ```
 
 ## Installation
