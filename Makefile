@@ -12,10 +12,3 @@ build-tvos:
 		-scheme MagicImages \
 		-destination "platform=tvOS Simulator,name=Apple TV" \
 		clean build | xcpretty
-
-build-visionos:
-	set -o pipefail && \
-	xcodebuild build \
-		-scheme MagicImages \
-		-destination "platform=visionOS Simulator,name=Vision Pro" \
-		clean build | xcpretty
