@@ -21,6 +21,9 @@ jobs:
     
     - name: Build tvOS
       run: make build-tvos
+    
+    - name: Build visionOS
+      run: make build-visionos
       
     - name: Danger action
       uses: MeilCli/danger-action@v6.0.9
