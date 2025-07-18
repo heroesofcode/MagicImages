@@ -2,7 +2,7 @@ test-ios:
 	set -o pipefail && \
 	xcodebuild test \
 		-scheme MagicImages \
-		-destination "platform=iOS Simulator,name=IPhone 18" \
+		-destination "platform=iOS Simulator,name=IPhone 16" \
 		-enableCodeCoverage YES \
 		clean test | xcpretty
 
